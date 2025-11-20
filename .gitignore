@@ -1,0 +1,9 @@
+/build
+.flutter-plugins
+.packages
+.pub-cache
+.idea
+.vscode
+.android
+.ios
+**/generated_plugin_registrant.dart

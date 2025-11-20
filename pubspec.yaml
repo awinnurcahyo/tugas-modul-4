@@ -1,0 +1,31 @@
+name: data_playground
+description: Flutter Data Playground - persistence & CRUD demos
+publish_to: "none"
+version: 0.0.1
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.5.3
+  path_provider: ^2.1.4
+  sqflite: ^2.4.2
+  path: ^1.9.0
+  dio: ^5.4.0
+  retrofit: ^4.0.1
+  json_annotation: ^4.9.0
+  floor: ^1.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.4.6
+  retrofit_generator: ^7.0.8
+  json_serializable: ^6.8.0
+  floor_generator: ^1.5.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/db/tasks.db
